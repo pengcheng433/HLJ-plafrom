@@ -1,0 +1,760 @@
+body {
+    background: #f6f6f6;
+    font-family: '微软雅黑';
+}
+
+/*登录页面-个人中心开始*/
+
+.personal_content {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    overflow: hidden;;
+}
+
+.personal_left {
+    width: 186px;
+    float: left;
+}
+
+.left_a {
+    width: 186px;
+    height: 240px;
+    background: #fff;
+    font-size: 14px;
+    line-height: 22px;
+    padding-top: 20px;
+}
+
+.per_img1 {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -o-border-radius: 50px;
+    -ms-border-radius: 50px;
+
+
+}
+
+.font_b1 {
+    color: #333333;
+}
+
+.font_b2 {
+    color: #666666;
+}
+
+.font_b3 {
+    color: #999999;
+    font-size: 12px;
+    line-height: 20px;
+    display: block;
+}
+
+.font_b5 {
+    color: #999999;
+}
+
+.left_sure {
+    width: 72px;
+    height: 20px;
+    margin: 14px auto;
+}
+
+.left_icon4 {
+    width: 26px;
+    height: 20px;
+    float: left;
+    margin-right: 6px;
+}
+
+.left_b {
+    width: 186px;
+    min-height: 455px;
+    background: #fff;
+    margin-top: 20px;
+    padding-top: 30px;
+}
+
+.count_manage {
+    width: 126px;
+    margin: 0 auto;
+    color: #666666;
+}
+
+.count_tit {
+    width: 126px;
+    height: 28px;
+    line-height: 28px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.count_icon1 {
+    width: 16px;
+    height: 16px;
+    float: left;
+    margin-top: 6px;
+    margin-right: 10px;
+}
+
+.count_icon3 {
+    width: 11px;
+    height: 8px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.count_list {
+   /* display: none;*/
+    list-style: disc;
+    list-style-position: inherit;
+    padding-left: 22px;
+}
+
+.count_list > li, .count_list > li > a {
+    width: 126px;
+    height: 28px;
+    color: #666666;
+    font-size: 14px;
+    margin-left: 2px;
+    line-height: 38px;
+}
+
+.count_list > li:hover, .count_list > li > a:hover {
+    color: #188eee;
+}
+
+.count_list > li .active2{color: #188eee; }
+.count_list  .active3{color: #188eee;}
+
+.mar_c1 {
+    margin-top: 20px;
+}
+
+.personal_right {
+    width: 996px;
+    float: right;
+    min-height: 715px;
+    background: #fff;
+    font-size: 14px;
+    color: #666666;
+}
+
+.right_title {
+    width: 956px;
+    margin: 0 auto;
+    height: 54px;
+    border-bottom: 1px solid #c5c5c5;
+    line-height: 54px;
+    font-size: 16px;
+}
+
+.right_icon1 {
+    width: 16px;
+    height: 16px;
+    float: left;
+    display: block;
+    margin: 19px 10px 0 6px;
+}
+
+.personal_detail_content {
+    width: 896px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.person_img_box {
+    width: 896px;
+    height: 100px;
+}
+
+.person_img_a1 {
+    width: 80px;
+    line-height: 100px;
+    float: left;
+}
+
+.person_img_a2 {
+    width: 100px;
+    height: 100px;
+    display: block;
+    float: left;
+    margin-right: 28px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    -moz-border-radius: 50px;
+}
+
+.person_img_a3, .person_img_a3:hover, .person_img_a3:visited {
+    width: 100px;
+    height: 36px;
+    background: #188eee;
+    display: block;
+    text-align: center;
+    line-height: 36px;
+    color: #fff;
+    float: left;
+    margin-top: 32px;
+}
+
+.border_b1 {
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -o-border-radius: 2px;
+    -ms-border-radius: 2px;
+}
+
+.person_img_a4 {
+    float: left;
+    line-height: 20px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.count_number {
+    width: 896px;
+    margin-top: 20px;
+    overflow: hidden;;
+
+}
+
+.font_right1 {
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    font-weight: normal;
+}
+
+.count_number_a1 {
+    height: 30px;
+    float: left;
+    line-height: 30px;
+}
+
+.person_input1 {
+    width: 200px;
+    height: 30px;
+    border: 1px solid #c5c5c5;
+    padding: 0 10px;
+    margin-right: 20px;
+    float: left;
+}
+
+.person_btn_box {
+    width: 896px;
+    margin: 0 auto;
+}
+
+.person_btn {
+    width: 140px;
+    height: 36px;
+    margin-top: 30px;
+    background: #188eee;
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.person_btn:hover {
+    color: #fff;
+}
+
+/*登录页面-个人中心结束*/
+
+/*登录页面-账户安全开始*/
+.person_safe_title {
+    width: 956px;
+    margin: 0 auto;
+    height: 54px;
+    line-height: 54px;
+    font-size: 16px;
+}
+
+.safe_class_box {
+    width: 896px;
+    height: 66px;
+    margin: 0 auto;
+    margin-top: 20px;
+    line-height: 66px;
+}
+
+.safe_icon5 {
+    width: 12px;
+    height: 14px;
+    display: block;
+    float: left;
+    margin: 20px 10px 0 6px;
+}
+
+.font_b4 {
+    color: #ff2727;
+}
+
+.safe_class_tit {
+    float: left;
+    margin-right: 30px;
+}
+
+.safe_class_detail {
+    float: left;
+    margin-right: 20px;
+}
+
+.safe_bar {
+    width: 300px;
+    float: left;
+    margin-top: 28px;
+}
+
+.progress {
+    height: 10px;
+
+    margin-bottom: 20px;
+    overflow: hidden;
+    background-color: #c5c5c5;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, .1);
+}
+
+.progress-bar {
+    float: left;
+    width: 0;
+    height: 100%;
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    background-color: #e73333;
+    -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
+    -webkit-transition: width .6s ease;
+    -o-transition: width .6s ease;
+    transition: width .6s ease;
+}
+
+.safe_icon1 {
+    width: 66px;
+    height: 66px;
+    display: block;
+    float: right;
+}
+
+.bor_b {
+    width: 960px;
+    height: 1px;
+    background: #c5c5c5;
+    margin: 0 auto;
+    margin-top: 28px;
+}
+
+.safe_list {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.safe_com1 {
+    width: 960px;
+    height: 80px;
+    border-bottom: 1px solid #c5c5c5;
+}
+
+.safe_icon2 {
+    width: 24px;
+    height: 24px;
+    display: block;
+    margin: 28px 16px 0 30px;
+    float: left;
+}
+
+.safe_font1 {
+    width: 140px;
+    line-height: 80px;
+    display: block;
+    float: left;
+    color: #666666;
+}
+
+.safe_font2 {
+    width: 170px;
+    line-height: 80px;
+    float: left;
+    display: block;
+    color: #666666;
+}
+
+.safe_font3 {
+    width: 370px;
+    line-height: 80px;
+    float: left;
+    display: block;
+    color: #999999;
+}
+
+.safe_code {
+    width: 100px;
+    height: 34px;
+    display: block;
+    float: right;
+    border: 1px solid #c5c5c5;
+    text-align: center;
+    line-height: 34px;
+    color: #666666;
+    margin-top: 23px;
+}
+
+.safe_code:hover {
+    color: #fff;
+    background: #188eee;
+    border: 1px solid #188eee;
+}
+
+/*登录页面-账户安全结束*/
+
+/*登录页面-机构设置开始*/
+.institute_icon1 {
+    width: 18px;
+    height: 14px;
+    display: block;
+    float: left;
+    margin: 20px 10px 0 10px;
+}
+
+.create_institute {
+    width: 100px;
+    height: 34px;
+    display: block;
+    float: right;
+    text-align: center;
+    line-height: 34px;
+    color: #fff;
+    margin-top: 10px;
+    background: #188eee;
+}
+
+.create_institute:hover {
+    color: #fff;
+}
+
+.institute_content {
+    width: 956px;
+    margin: 0 auto;
+}
+
+.institute_create_content {
+    width: 930px;
+    margin:0 auto;
+
+}
+
+.bor_c {
+    border-bottom: 1px solid #c5c5c5;
+}
+
+.institute_title1 {
+    width: 900px;
+    margin: 0 auto;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    color: #666666;
+}
+
+.institute_list1 {
+    width: 930px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.institute_list1 li {
+    width: 278px;
+    height: 115px;
+    float: left;
+
+    border-left: 1px solid #f7f7f7;
+    border-right: 1px solid #f7f7f7;
+    border-bottom: 1px solid #f7f7f7;
+    margin: 0 15px 24px 15px;
+    transition: all 500ms;
+}
+.bor_top1{  border-top: 4px solid #ffcc00;}
+.bor_top2{    border-top: 4px solid #188eee;}
+
+.institute_list1 li a{ width: 278px;
+    height: 115px; display: block;}
+
+.edu_admit1 {
+    width: 38px;
+    height: 14px;
+    float: right;
+    display: block;
+    margin-top: 8px;
+    margin-right: 6px;
+    display: none;
+}
+
+/*.institute_list1 li:hover {
+    width: 278px;
+    height: 115px;
+    float: left;
+
+    border-left: 1px solid #f7f7f7;
+    border-right: 1px solid #f7f7f7;
+    border-bottom: 1px solid #f7f7f7;
+    margin: 0 15px 24px 15px;
+}*/
+
+.edu_img1 {
+    width: 80px;
+    height: 80px;
+    display: block;
+    float: left;
+    margin: 10px 20px 0 10px;
+}
+
+.edu_text {
+    width: 120px;
+    float: left;
+    margin-top: 16px;
+}
+
+.adu_text_title {
+    width: 120px;
+    height: 26px;
+    line-height: 26px;
+}
+
+.edu_font1 {
+    display: block;
+    float: left;
+    font-size: 16px;
+    color: #666666;
+    margin-right: 6px;
+}
+
+.edu_icon1 {
+    width: 16px;
+    height: 16px;
+    float: left;
+    display: block;
+    margin-top: 5px;
+}
+
+
+
+/*登录页面-机构设置结束*/
+
+/*登录页面-创建机构开始*/
+.create_icon1 {
+    width: 16px;
+    height: 17px;
+    float: left;
+    display: block;
+    margin: 19px 10px 0 10px;
+}
+
+.text_input1 {
+    width: 420px;
+    min-height: 70px;
+    display: block;
+    float: left;
+    padding: 10px;
+}
+
+textarea {
+    resize: both;
+    border: 1px solid #c5c5c5;
+}
+
+.person_input_box2 {
+    width: 200px;
+    height: 30px;
+    border: 1px solid #c5c5c5;
+    padding-left: 10px;
+    margin-right: 20px;
+    float: left;
+}
+
+.person_input2 {
+    width: 106px;
+    height: 28px;
+    border: none;
+    outline: none;
+    float: left;
+}
+
+.sure_code2 {
+    width: 72px;
+    height: 28px;
+    display: block;
+    float: right;
+}
+
+/*设置密码弹窗开始*/
+.pop_mask {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgba(102, 102, 102, 0.6);
+    bottom: 0;
+    left: 0;
+    z-index: 10000;
+    display: block;
+    display: none;
+}
+
+.popup_box {
+    width: 500px;
+    height: auto;
+    background: #fff;
+    position: absolute;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -o-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+.pop_header {
+    width: 500px;
+    height: 60px;
+    line-height: 60px;
+    text-indent: 20px;
+    background: #188eee;
+    color: #fff;
+    font-size: 18px;
+}
+
+.close_btn {
+    width: 23px;
+    height: 22px;
+    float: right;
+    display: block;
+    margin-top: 15px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.pop_content {
+    width: 420px;
+    margin: 0 auto;
+    margin-top: 30px;
+    height: auto;
+    overflow: hidden;
+}
+
+.form {
+    width: 420px;
+    margin: 0 auto;
+    font-size: 14px;
+    color: #666666;
+    overflow: hidden;
+}
+
+.pop_name {
+    width: 420px;
+    height: auto;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.pop_input_left {
+    width: 80px;
+    float: left;
+    height: 34px;
+    line-height: 34px;
+    font-weight: normal;
+}
+
+.pop_input1 {
+    width: 300px;
+    height: 34px;
+    outline: none;
+    float: left;
+    line-height: 28px;
+    border: 1px solid #c5c5c5;
+    padding: 0 10px;
+}
+
+.pop_input_box2 {
+    width: 420px;
+    margin-top: 26px;
+    overflow: hidden;
+}
+
+.pop_input_box1 {
+    width: 420px;
+    height: auto;
+    overflow: hidden;
+}
+
+.order_btn {
+    width: 420px;
+    margin: 0 auto;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    overflow: hidden;
+
+}
+.order_btn>a{float: left;text-decoration: none;line-height: 36px;}
+
+.btn_cancel1 {
+    width: 80px;
+    height: 36px;
+    display: block;
+    text-decoration: none;
+    border: 1px solid #c5c5c5;
+    color: #999999;
+    margin-left:200px;
+}
+
+.btn_cancel1:hover{color: #999999;}
+
+.btn_keep1 {
+    width: 80px;
+    height: 36px;
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    background: #188eee;
+    margin-left:20px;
+}
+.btn_keep1:hover{color: #fff;}
+
+.input_tip4 {
+    width: 240px;
+    margin: 0 auto;
+    font-size: 14px;
+    color: #666666;
+}
+.pop_input_box3 {
+    width: 300px;
+    height: 34px;
+    outline: none;
+    float: left;
+    line-height: 28px;
+    border: 1px solid #c5c5c5;
+    padding-left:10px;
+}
+.pop_input2{width:160px;height:32px;line-height: 32px;float: left;display: block; border:none;}
+.pop_sure_code{width:120px;background:#e7e7e7; cursor:pointer;height:32px; display: block;
+    float: right;text-align: center;color:#666666;font-size: 14px; }
+.popup_box2{width:360px;height:372px; position: absolute;}
+.popup_box2>img{width:360px;height:372px;}
+/*设置密码弹窗结束*/
+
+/*登录页面-创建机构结束*/

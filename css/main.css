@@ -1,0 +1,892 @@
+/*师说官网-功能介绍开始*/
+.banner2 {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner_text {
+
+    left: 13%;
+    position: absolute;
+    top: 36%;
+    color: #fff;
+    letter-spacing: 0.1em;
+}
+
+@media (max-width: 767px) {
+    .font-c1 {
+        font-size: 16px;
+    }
+
+    .font-c2 {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 1200px) {
+    .font-c1 {
+        font-size: 30px;
+    }
+
+    .font-c2 {
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .font-c1 {
+        font-size: 50px;
+    }
+
+    .font-c2 {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 767px) {
+    .cont_nav {
+        width: 100%;
+        min-height: 36px;
+        background: #f3f3f3;
+    }
+
+    .nav2_list {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .nav2_list li a {
+        line-height: 24px;
+        padding: 0 12px;
+        margin: 6px 4px;
+        float: left;
+        color: #666666;
+        font-size: 14px;
+    }
+
+    .nav2_list li .active2 {
+        background: #188eee;
+        border-radius: 4px;
+        -o-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        color: #fff;
+    }
+
+    .nav2_list li a:hover {
+        background: #188eee;
+        border-radius: 4px;
+        -o-border-radius: 4px;
+        -ms-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        color: #fff;
+    }
+}
+
+@media (min-width: 768px) {
+    .cont_nav {
+        width: 100%;
+        min-height: 60px;
+        background: #f3f3f3;
+    }
+
+    .nav2_list {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .nav2_list li a {
+        line-height: 34px;
+        padding: 0 20px;
+        margin: 13px 6px;
+        float: left;
+        color: #666666;
+        font-size: 16px;
+    }
+
+    .nav2_list li a:hover {
+        background: #188eee;
+        border-radius: 8px;
+        -o-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -webkit-border-radius: 8px;
+        color: #fff;
+    }
+
+    .nav2_list li .active2 {
+        background: #188eee;
+        border-radius: 8px;
+        -o-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -webkit-border-radius: 8px;
+        color: #fff;
+    }
+}
+
+.function_introduce {
+    margin-top: 80px;
+}
+
+.function_box {
+    margin-bottom: 80px;
+}
+
+.function_title {
+    text-align: center;
+    font-size: 24px;
+    color: #333333;
+}
+
+.function_list li {
+    margin-top: 40px;
+}
+
+.function_list li a {
+    display: block;
+    color: #333333;
+    font-size: 16px;
+    overflow: hidden;
+}
+
+.function_icon1 {
+    float: left;
+    margin-right: 20px;
+}
+
+.font-c3 {
+    font-size: 16px;
+    color: #333333;
+    line-height: 25px;
+}
+
+.font-c4 {
+    color: #666666;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+/*师说官网-功能介绍结束*/
+
+/*师说官网-客户案例开始*/
+.customer_case {
+    margin-top: 80px;
+}
+
+@media (max-width: 767px) {
+
+    .com_title1 {
+        font-size: 26px;
+        color: #333333;
+        height: 50px;
+        line-height: 50px;
+        display: table;
+        margin: 0 auto;
+    }
+
+    .title_icon1 {
+        float: left;
+        display: block;
+        margin-top: 3px;
+
+        margin-right: 20px;
+    }
+
+    .title_icon2 {
+        float: left;
+        display: block;
+        margin-top: 7px;
+        margin-right: 20px;
+    }
+
+    .title_text {
+        display: block;
+        float: left;
+    }
+}
+
+@media (min-width: 767px) {
+
+    .com_title1 {
+        font-size: 46px;
+        color: #333333;
+        height: 50px;
+        line-height: 50px;
+        display: table;
+        margin: 0 auto;
+    }
+
+    .title_icon1 {
+        float: left;
+        display: block;
+        margin-top: 3px;
+        margin-right: 20px;
+    }
+
+    .title_icon2 {
+        float: left;
+        display: block;
+        margin-top: 7px;
+        margin-right: 20px;
+    }
+
+    .title_text {
+        display: block;
+        float: left;
+    }
+}
+
+.client_icon1 {
+    float: left;
+    display: block;
+    margin-right: 20px;
+    margin-top: 6px;
+}
+
+.client_font1 {
+    font-size: 30px;
+    color: #333333;
+    float: left;
+    display: block;
+    line-height: 42px;
+    margin-right: 20px;
+}
+
+.client_font2 {
+    font-size: 16px;
+    color: #666666;
+    display: block;
+    float: left;
+    line-height: 42px;
+}
+
+.client_font3 {
+    color: #188eee;
+    font-size: 14px;
+    display: block;
+    float: right;
+    line-height: 42px;
+}
+
+.client_font3:hover {
+    color: #188eee;
+}
+
+.client_classify_title {
+    margin-top: 60px;
+}
+
+.client_classify {
+    width:auto;
+    display: table;
+    margin:0 auto;
+
+}
+
+.client_classify > li {
+    margin: 10px 0;
+    float: left;
+
+}
+
+.client_classify > li a {
+    padding: 6px 20px;
+    color: #666666;
+    margin-right:10px;
+}
+
+.client_classify > li a:hover {
+    background: #188eee;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.client_classify > li .active {
+    background: #188eee;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.client_list_box {
+    display: none;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+
+.client_classify_list {
+    margin-top: 50px;
+    overflow: hidden;
+    margin-bottom: 50px;
+
+}
+
+.client_classify_list > li {
+    margin-bottom: 30px;
+    height:311px;
+    position: relative;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.client_classify_list > li>a{
+    width: 100%;
+    height: 100%;
+    display: block;;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+
+
+.tran_container{
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.client_com1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+.client_b1{
+    -ms-transform: translateZ(130px);
+    -webkit-transform: translateZ(130px);
+    transform: translateZ(130px);}
+.client_b2{
+    width:100%;
+    height: auto;
+    border: 1px solid #188eee;
+    border-radius: 4px;
+    -webkit-transform-origin: top right;
+    -ms-transform-origin: top right;
+    transform-origin: top right;
+    -webkit-transform: rotateY(-270deg) translateX(130px);
+    transform: rotateY(-270deg) translateX(130px);
+}
+.client_classify_list > li>a:hover .tran_container {
+    -webkit-transform: rotateY(-90deg);
+    -ms-transform: rotateY(-90deg);
+    transform: rotateY(-90deg)
+}
+
+.client_font4 {
+    text-align: center;
+    margin: 20px 0;
+    line-height: 40px;
+    color: #666666;
+    font-size: 16px;
+}
+
+/*.client_weixin_img {
+    position: absolute;
+    left: 15px;
+    top: 0;
+    z-index: 1000;
+    display: none;
+}*/
+
+/*师说官网-客户案例结束*/
+
+/*师说官网-师说学院开始*/
+.school_container {
+    margin-top: 50px;
+    margin-bottom: 90px;
+
+}
+
+.container_school {
+    margin-top: 20px;
+}
+
+.school_list {
+    margin-bottom: 80px;
+}
+
+@media (min-width: 768px)
+{
+
+    .school_list{margin-top:40px;}
+
+    .school_list > li {
+        transition: all 500ms;
+        height:326px;
+
+    }
+    .school_list_content {
+        background: #fff;
+        padding: 40px 0;
+        border: 1px solid #cccccc;
+        transition: all 500ms;
+
+
+    }
+
+    .school_list > li > a {
+        transition: all 500ms;
+
+    }
+
+    .school_list > li:hover .school_list_content{
+
+        padding-top: 20px;
+
+
+    }
+}
+
+@media (max-width: 767px)
+{
+
+    .school_list > li {
+        transition: all 500ms;
+        margin-top:40px;
+    }
+
+    .school_list_content {
+        background: #fff;
+        padding: 40px 0;
+        border: 1px solid #cccccc;
+        transition: all 500ms;
+
+
+    }
+
+    .school_list > li > a {
+        transition: all 500ms;
+
+    }
+
+    .school_list > li:hover .school_list_content{
+
+        margin-top:20px;
+
+
+    }
+}
+
+
+.school_list_content:hover {
+    box-shadow: 2px 2px 3px #b7dcfa;
+    -o-box-shadow: 2px 2px 3px #b7dcfa;
+    -webkit-box-shadow: 2px 2px 3px #b7dcfa;
+    -ms-box-shadow: 2px 2px 3px #b7dcfa;
+    border: none;
+
+}
+
+.school_date {
+    width: 90%;
+    height: 30px;
+    margin: 0 auto;
+    line-height: 30px;
+    font-size: 18px;
+    color: #999999;
+}
+
+.date_icon1 {
+    width: 19px;
+    height: 19px;
+    float: left;
+    background: url("../images/school_icon2.png") no-repeat left center;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+
+.school_main_text {
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: 1px solid #f6f6f6;
+    margin-top: 30px;
+    color: #666666;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+.school_text_tip {
+    width: 90%;
+    margin: 20px auto;
+    font-size: 14px;
+    color: #999999;
+    line-height: 24px;
+}
+
+.school_arrow1 {
+    width: 90%;
+    margin: 0 auto;
+    height: 13px;
+    background: url("../images/school_icon3.png") no-repeat center center;
+}
+
+.school_list > li > a:hover, .school_list > li > a:hover .school_text_tip,
+.school_list > li > a:hover .school_date {
+    color: #188eee;
+}
+
+.school_list > li > a:hover .date_icon1 {
+    background: url("../images/school_icon4.png") no-repeat left center;
+}
+
+.school_list > li > a:hover .school_arrow1 {
+    background: url("../images/school_icon5.png") no-repeat center center;
+}
+
+.school_list > li > a:hover .school_main_text {
+
+    border-bottom: 1px solid #188eee;
+    color: #188eee;
+
+}
+
+/*师说官网-师说学院结束*/
+
+/*师说官网-新闻中心开始*/
+
+.news_container {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.new_list_detail {
+    margin-bottom: 50px;
+    border-bottom: 1px solid #eeeeee;
+    transition: all 500ms;
+}
+
+.news_title {
+    font-size: 18px;
+    color: #333333;
+    padding: 20px 0;
+    border-bottom: 1px solid #eeeeee;
+    line-height: 28px;
+}
+
+.news_intro {
+    font-size: 14px;
+    color: #666666;
+    line-height: 24px;
+    padding: 20px 0;
+}
+
+.bor-b2 {
+}
+
+.font-c5 {
+    font-size: 24px;
+}
+
+.font-c6 {
+    font-size: 18px;
+}
+
+.new_list_detail:hover .news_title {
+    color: #188eee;
+}
+
+.new_list_detail:hover .news_date2 {
+    color: #188eee;
+}
+
+@media (max-width: 767px) {
+
+    .news_more {
+        float: right;
+        margin-top: 10px;
+        width: 16px;
+        height: 29px;
+        background: url('../images/news_icon3.png') no-repeat right center;
+    }
+
+    .new_list_detail:hover .news_more {
+        background: url('../images/news_icon4.png') no-repeat right center;
+    }
+
+    .news_date2 {
+        float: left;
+        padding-top: 10px;
+        color: #999999;
+    }
+}
+
+@media (min-width: 767px) {
+
+    .news_more {
+        float: right;
+        margin-top: 80px;
+        width: 26px;
+        height: 44px;
+        background: url('../images/news_icon3.png') no-repeat right center;
+    }
+
+    .new_list_detail:hover .news_more {
+        background: url('../images/news_icon4.png') no-repeat right center;
+    }
+
+    .news_date2 {
+        float: left;
+        padding-top: 80px;
+        color: #999999;
+    }
+}
+
+/*师说官网-新闻中心结束*/
+/*师说官网-帮助中心开始*/
+.banner3 {
+    width: 100%;
+    background: #0073d0;
+    padding: 56px 0;
+}
+
+@media (min-width: 768px) {
+    .search_input_box {
+        width: 52.5%;
+        margin: 0 auto;
+        height: 50px;
+        border-radius: 8px;
+        -o-border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -ms-border-radius: 8px;
+        background: #fff;
+    }
+
+    .help_input1 {
+        width: 85%;
+        height: 34px;
+        line-height: 34px;
+        display: block;
+        margin-top: 8px;
+        padding: 0 20px;
+        border: none;
+        outline: none;
+        float: left;
+        font-size: 16px;
+    }
+
+    .submit_1 {
+        width: 15%;
+        background: #188eee;
+        color: #fff;
+        text-align: center;
+        line-height: 50px;
+        float: left;
+        border: none;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        -ms-border-top-right-radius: 8px;
+        -ms-border-bottom-right-radius: 8px;
+        -webkit-border-top-right-radius: 8px;
+        -webkit-border-bottom-right-radius: 8px;
+        -o-border-top-right-radius: 8px;
+        -o-border-bottom-right-radius: 8px;
+        outline: none;
+    }
+
+    .font-c7 {
+        width: 52.5%;
+        margin: 0 auto;
+        font-size: 12px;
+        color: #fff;
+        line-height: 32px;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .search_input_box {
+        width: 100%;
+        height: 50px;
+        border-radius: 8px;
+        -o-border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -ms-border-radius: 8px;
+        background: #fff;
+    }
+
+    .help_input1 {
+        width: 85%;
+        height: 34px;
+        line-height: 34px;
+        display: block;
+        margin-top: 8px;
+        padding: 0 20px;
+        border: none;
+        outline: none;
+        float: left;
+        font-size: 12px;
+    }
+
+    .submit_1 {
+        width: 15%;
+        background: #188eee;
+        color: #fff;
+        text-align: center;
+        line-height: 50px;
+        float: left;
+        border: none;
+        border-top-right-radius: 8px;
+        border-bottom-right-radius: 8px;
+        -ms-border-top-right-radius: 8px;
+        -ms-border-bottom-right-radius: 8px;
+        -webkit-border-top-right-radius: 8px;
+        -webkit-border-bottom-right-radius: 8px;
+        -o-border-top-right-radius: 8px;
+        -o-border-bottom-right-radius: 8px;
+        outline: none;
+    }
+
+    .font-c7 {
+        font-size: 12px;
+        color: #fff;
+        line-height: 20px;
+    }
+
+}
+
+.help_left_container {
+    padding: 0;
+}
+
+.help_container {
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.help_left {
+    background: #fff;
+    margin-bottom: 40px;
+}
+
+.nav1_title_box {
+    border-bottom: 1px solid #f6f6f6;
+    padding: 0 10px;
+}
+
+.nav1_title {
+    height: 38px;
+    line-height: 39px;
+    background: url("../images/help_icon1.png") no-repeat right center;
+    cursor: pointer;
+    font-size: 14px;
+    color: #333333;
+}
+
+.nav1_list {
+    display: none;
+}
+
+.nav1_list li {
+    border-bottom: 1px solid #f6f6f6;
+
+}
+
+.nav1_list li a {
+    padding: 0 20px;
+    color: #666666;
+    display: block;
+    line-height: 30px;
+    font-size: 12px;
+    border-left: 2px solid #fff;
+}
+.nav1_list li .active3{ color: #188eee;
+    border-left: 2px solid #188eee;}
+.nav1_list li a:hover {
+    color: #188eee;
+    border-left: 2px solid #188eee;
+}
+
+.nav1_list li:hover a {
+    color: #188eee;
+}
+
+.help_right {
+    background: #fff;
+}
+
+.help_position {
+    margin: 0 10px;
+    height: 50px;
+    border-bottom: 1px solid #eeeeee;
+    line-height: 50px;
+}
+
+.help_position a {
+    color: #188eee;
+    font-size: 14px;
+}
+
+.help_title2 {
+    font-size: 24px;
+    color: #333333;
+    padding: 20px 0;
+}
+
+.help_right_content {
+    padding: 0 20px 50px 20px;
+}
+
+.help_text_detail {
+    font-size: 14px;
+    color: #666666;
+    line-height: 24px;
+}
+
+.img_box1 {
+    margin-top: 20px;
+}
+
+/*师说官网-帮助中心结束*/
+
+/*师说官网-新闻详情页开始*/
+@media (max-width: 767px) {
+    .news_content_title {
+        font-size: 26px;
+        color: #333333;
+    }
+
+    .news_content_date {
+        font-size: 14px;
+        color: #999999;
+    }
+}
+
+@media (min-width: 1200px) {
+    .news_content_title {
+        font-size: 46px;
+        color: #333333;
+    }
+
+    .news_content_date {
+        font-size: 24px;
+        color: #999999;
+    }
+}
+
+.news_content {
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.com_title2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.news_content_text {
+    color: #666666;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+/*师说官网-新闻详情页结束*/
